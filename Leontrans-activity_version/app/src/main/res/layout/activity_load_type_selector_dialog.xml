@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leontrans.leontranstm.basepart.filters.FilterSwitcherDialogActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/lodtype_switcher_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/top" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/side" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/back" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/fulluntent" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/uncrossbar" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/unrack" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/ungate" />
+
+            <Switch
+                android:id="@+id/lodtype_switcher_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:text="@string/gydrobort" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/cancel_filter_btn"/>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_filter_btn"/>
+    </LinearLayout>
+</LinearLayout>

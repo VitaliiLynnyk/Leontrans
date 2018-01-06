@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_bt_ukraine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/flag_ukraine"
+            android:drawablePadding="20dp"
+            android:text="Українська"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_bt_usa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/flag_united_states"
+            android:drawablePadding="20dp"
+            android:text="English"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_bt_russia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/flag_russia"
+            android:drawablePadding="20dp"
+            android:text="Русский"
+            android:textSize="20sp" />
+    </RadioGroup>
+</LinearLayout>

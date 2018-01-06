@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leontrans.leontranstm.basepart.filters.FilterSettingsActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <Button
+            android:id="@+id/filter_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_1"/>
+
+        <Button
+            android:id="@+id/filter_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_2"/>
+
+        <Button
+            android:id="@+id/filter_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_3"/>
+
+        <Button
+            android:id="@+id/filter_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_4"/>
+
+        <Button
+            android:id="@+id/filter_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_5"/>
+        <Button
+            android:id="@+id/filter_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_6"/>
+
+        <Button
+            android:id="@+id/filter_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_7"/>
+
+        <Button
+            android:id="@+id/filter_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_8"/>
+
+        <Button
+            android:id="@+id/filter_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_9"/>
+
+        <Button
+            android:id="@+id/filter_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/filter_10"/>
+    </LinearLayout>
+
+
+</LinearLayout>

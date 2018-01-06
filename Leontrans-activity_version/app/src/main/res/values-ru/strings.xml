@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">Leon-Trans</string>
+
+    <string name="logo_of_leontrans_tm_hint">logo of leontrans_TM</string>
+    <string name="login_hello_TV">Увійдіть в Аккаунт</string>
+    <string name="login_input_field_hint">login</string>
+    <string name="password_input_field_hint">password</string>
+    <string name="signIn_btn">Увійти</string>
+
+
+    <string name="test_text_card_view_activity">Card View</string>
+    <string name="menu_item_title">showFilterNavigationDrawer</string>
+    <string name="reload_activity_cards_menu">Обновить объявления</string>
+    <string name="go_up_to_list">↑ Вверх ↑</string>
+
+    <string name="TV_name">Имя</string>
+    <string name="TV_city">Город</string>
+    <string name="TV_email">Email</string>
+    <string name="TV_telephone">Телефон</string>
+    <string name="TV_skype">Skype</string>
+    <string name="TV_icq">ICQ</string>
+    <string name="TV_website">Веб сайт</string>
+    <string name="TV_occupation">Род деятельности</string>
+    <string name="TV_occupation_type">Вид деятельности</string>
+    <string name="TV_occupation_description">Описание деятельности</string>
+    <string name="TV_register_date">Дата регистрации</string>
+    <string name="TV_last_online">Последнее в сети</string>
+
+    <string name="date_to">date_to</string>
+    <string name="no_date">без даты</string>
+    <string name="date_from">date_from</string>
+    <string name="type">type</string>
+    <string name="city_from_ru">city_from_ru</string>
+    <string name="city_to_ru">city_to_ru</string>
+    <string name="country_to_ru">country_to_ru</string>
+    <string name="country_from_ru">country_from_ru</string>
+
+
+    <string name="truck">Любая</string>
+    <string name="trailer">Полуприцеп</string>
+    <string name="half_trailer">Сцепка</string>
+
+    <string name="top">верхняя</string>
+    <string name="side">боковая</string>
+    <string name="back">задняя</string>
+    <string name="fulluntent">с полной растентовкой</string>
+    <string name="uncrossbar">со снятием поперечин</string>
+    <string name="unrack">со снятием стоек</string>
+    <string name="ungate">без ворот</string>
+    <string name="gydrobort">гидроборт</string>
+
+    <string name="any">любая</string>
+    <string name="bus">Автобус</string>
+    <string name="easy">Легковая</string>
+    <string name="avto">Автовоз</string>
+    <string name="fuel_oil">Бензовоз (Масловоз)</string>
+    <string name="concrete">Бетоновоз</string>
+    <string name="gas">Газовоз</string>
+    <string name="hard">Грузовая</string>
+    <string name="grain">Зерновоз</string>
+    <string name="isotherms">Изотерм</string>
+    <string name="containertrans">Контейнеровоз</string>
+    <string name="tap">Кран</string>
+    <string name="closed">Крытая</string>
+    <string name="trees">Лесовоз</string>
+    <string name="microbus">Микроавтобус</string>
+    <string name="oversized">Негабарит</string>
+    <string name="unclosed">Открытая</string>
+    <string name="refrigerator">Рефрижератор</string>
+    <string name="tipper">Самосвал</string>
+    <string name="animaltruck">Скотовоз</string>
+    <string name="awning">Тент</string>
+    <string name="trall">Тралл</string>
+    <string name="avtotipper">Тягач</string>
+    <string name="fullmetal">Цельнометаллическая</string>
+    <string name="fuel_oil_small">Цистерна</string>
+    <string name="evacuator">Эвакуатор</string>
+
+    <string name="request">Запрос</string>
+
+    <string name="payform_777">Любая</string>
+    <string name="payform_1">Наличный</string>
+    <string name="payform_3">Безналичный</string>
+    <string name="payform_6">Безналичный с НДС</string>
+    <string name="payform_4">Комбинированная</string>
+    <string name="payform_71">Эл. платеж</string>
+    <string name="payform_72">Карта</string>
+
+
+    <string name="paymoment_52">на загрузке</string>
+    <string name="paymoment_53">на выгрузке</string>
+    <string name="paymoment_6">по оригиналам</string>
+    <string name="paymoment_61">отсрочка платежа</string>
+
+    <string name="telephone_numbers">номера телефонов</string>
+    <string name="close_telephone_dialog">закрыть</string>
+
+    <string name="show_telephones">показать телефоны</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="advertisement_list">Список объявлений</string>
+    <string name="filter_settings">Настройка фильтров</string>
+    <string name="favourite_cards_activity">Избранное</string>
+    <string name="app_settings">Настройка</string>
+
+    <string name="filter_1">Фильтр 1</string>
+    <string name="filter_2">Фильтр 2</string>
+    <string name="filter_3">Фильтр 3</string>
+    <string name="filter_4">Фильтр 4</string>
+    <string name="filter_5">Фильтр 5</string>
+    <string name="filter_6">Фильтр 6</string>
+    <string name="filter_7">Фильтр 7</string>
+    <string name="filter_8">Фильтр 8</string>
+    <string name="filter_9">Фильтр 9</string>
+    <string name="filter_10">Фильтр 10</string>
+
+    <string name="cancel_filter_btn">Отменить</string>
+    <string name="save_filter_btn">Сохранить</string>
+
+    <string name="tir">TIR</string>
+    <string name="cmr">CMR</string>
+    <string name="ekmt">EKMT</string>
+    <string name="t1">T1</string>
+    <string name="mbook">Мед. книжка</string>
+    <string name="customscontrol">Таможенный контроль"</string>
+
+    <string name="dangerous">Опасный</string>
+    <string name="undangerous">Не опасный</string>
+    <string name="adr1">ADR 1</string>
+    <string name="adr2">ADR 2</string>
+    <string name="adr3">ADR 3</string>
+    <string name="adr4">ADR 4</string>
+    <string name="adr5">ADR 5</string>
+    <string name="adr6">ADR 6</string>
+    <string name="adr7">ADR 7</string>
+    <string name="adr8">ADR 8</string>
+    <string name="adr9">ADR 9</string>
+    <string name="adr10">ADR 10</string>
+
+
+    <string name="capacity_from">Объем От, м3</string>
+    <string name="capacity_to">Объем До, м3</string>
+    <string name="weight_from">Масса От, т</string>
+    <string name="weight_to">Масса До, т</string>
+
+    <string name="country_from">Страна откуда</string>
+    <string name="country_to">Страна куда</string>
+    <string name="city_from">Город откуда</string>
+    <string name="city_to">Город куда</string>
+
+    <string name="notification_type">Тип объявления</string>
+    <string name="car_type">Тип авто</string>
+    <string name="car_kind">Вид авто</string>
+
+    <string name="loading">Загрузка</string>
+    <string name="docs">Документы</string>
+    <string name="adr">ADR</string>
+
+    <string name="notification_title">Новое объявление!</string>
+    <string name="notification_content">По вашим фильтрам было найдено новое объявление</string>
+    <string name="notification_warning">Проверьте новые объявления!</string>
+
+    <string name="saved_favourite_bids">Объявления добавлены в избранное</string>
+    <string name="delete_favourite_bids">Объявления удалено из избранных</string>
+
+    <string name="employee_owner_btn">Сотрудник</string>
+    <string name="show_new_cards_btn">Показать больше объявлений</string>
+
+    <string name="user_card_creator">Профиль</string>
+    <string name="filter_editor">Фильтр №</string>
+
+    <string name="internet_dialog_title">Без связи с сетью</string>
+    <string name="internet_dialog_message">Проверьте подключение и повторите попытку.</string>
+
+
+    <string-array name="notify_types">
+        <item>Не выбрано</item>
+        <item>Транспорт</item>
+        <item>Товары</item>
+    </string-array>
+
+    <string-array name="car_types">
+        <item>Не выбрано</item>
+        <item>Любая</item>
+        <item>Автобус</item>
+        <item>Автовоз</item>
+        <item>Бензовоз (Масловоз)</item>
+        <item>Бетоновоз</item>
+        <item>Газовоз</item>
+        <item>Грузовая</item>
+        <item>Зерновоз</item>
+        <item>Изотерм</item>
+        <item>Контейнеровоз</item>
+        <item>Кран</item>
+        <item>Крытая</item>
+        <item>Легковая</item>
+        <item>Лесовоз</item>
+        <item>Микроавтобус</item>
+        <item>Негабарит</item>
+        <item>Открытая</item>
+        <item>Рефрижератор</item>
+        <item>Самосвал</item>
+        <item>Скотовоз</item>
+        <item>Тент</item>
+        <item>Тралл</item>
+        <item>Тягач</item>
+        <item>Цельнометаллическая</item>
+        <item>Цистерна</item>
+        <item>Эвакуатор</item>
+    </string-array>
+
+    <string-array name="car_kind">
+        <item>Не выбрано</item>
+        <item>Любая</item>
+        <item>Полуприцеп</item>
+        <item>Сцепка</item>
+    </string-array>
+
+
+    <string name = "pp">ЧП (Частное предприятие)</string>
+    <string name = "tov">ООО (Общество с ограниченной ответственностью)</string>
+    <string name = "at">АО (Акционерное общество)</string>
+    <string name = "ag">АХ (Автомобильное Хозяйство)</string>
+    <string name = "apop">АЧАП (Агропромышленное частно-арендное предприятие)</string>
+    <string name = "apf">АЧФ (Аграрная частная фирма)</string>
+    <string name = "atzt">АОЗТ (Акционерное общество закрытого типа)</string>
+    <string name = "atov">АТОВ (Агропромышленное Общество с ограниченной ответственностью)</string>
+    <string name = "bkp">МКП (Многопрофильное коллективное предприятие)</string>
+    <string name = "bsok">МСОК (Многофункциональный сельскохозяйственный обслуживающий кооператив)</string>
+    <string name = "by">СУ (Строительное управление)</string>
+    <string name = "bf">БФ (Благотворительный фонд)</string>
+    <string name = "b_kpp">В-КПП (Производственно-коммерческое частное предприятие)</string>
+    <string name = "b_kpf">В-КПФ (Производственно-коммерческая частная фирма)</string>
+    <string name = "b_tp">В-ТП (Производственно-торговое предприятие)</string>
+    <string name = "wat">ОАО (Открытое акционерное общество)</string>
+    <string name = "vk">ВК (Производственный комплекс)</string>
+    <string name = "vkkp">ВККП (Производственно-Коммерческое Коллективное Предприятие)</string>
+    <string name = "vkoop">ВКООП (Производственный Кооператив)</string>
+    <string name = "vkp">ВКП (Производственное коммерческое предприятие)</string>
+    <string name = "vktov">ВКТОВ (Производственно-Коммерческое Общество с Ограниченной Ответственностью)</string>
+    <string name = "vkf">ПКФ (Производственно коммерческая фирма)</string>
+    <string name = "vo">ПО (Производственное объединение)</string>
+    <string name = "vsp">ВСП (Обособленное структурное подразделение)</string>
+    <string name = "vtzov">ВТзОВ (Производственное Общество с Ограниченной Ответственностью)</string>
+    <string name = "vtf">ПТФ (Производственно-торговая фирма)</string>
+    <string name = "vf">ВФ (Производственная фирма)</string>
+    <string name = "go">ГО (Громацька организация)</string>
+    <string name = "gtzov">ГТзОВ (Хозяйственное Общество с ограниченной ответственностью)</string>
+    <string name = "dat">ГАО (Государственное акционерное общество)</string>
+    <string name = "dahk">ГАХК (Государственная акционерная холдинговая компания)</string>
+    <string name = "dvat">ДОАО (Государственное открытое акционерное общество)</string>
+    <string name = "dip">ДИП (Дочернее иностранное предприятие)</string>
+    <string name = "dp">ГП (дочернее предприятие)</string>
+    <string name = "dp2">ДП (Государственное предприятие)</string>
+    <string name = "dpzd">ГПВД (Государственное предприятие внешнеэкономической деятельности)</string>
+    <string name = "dpmoy">ДПМОУ (Государственное предприятие Министерства обороны Украины)</string>
+    <string name = "dpp">ДПП (Дружковское Частное предприятие)</string>
+    <string name = "dsp">ДСП (Дочернее сельскохозяйственное предприятие)</string>
+    <string name = "dtgo">ГТОО (Государственное территориально-отраслевое объединение)</string>
+    <string name = "dtep">ГТЭП (Дочернее транспортно-экспедиционное предприятие)</string>
+    <string name = "dchp">ДП УАГ (Дочернее предприятие укрупненное автотранспортное хозяйство)</string>
+    <string name = "jbk">ЖСК (Жилищно-Строительный Кооператив)</string>
+    <string name = "zat">ЗАО (Закрытое акционерное общество)</string>
+    <string name = "zogo">ЗОГО (Запорожская Областная Общественная Организация)</string>
+    <string name = "zp">ЗП (Внешнеэкономическое Предприятие)</string>
+    <string name = "iaa">И-АА (Информационно аналитическое агентство)</string>
+    <string name = "ip">ИП (Иностранное предприятие)</string>
+    <string name = "kmp">КМП (Коллективное малое предприятие)</string>
+    <string name = "knvmp">КНВМП (Коллективное Научно-Производственное Малое Предприятие)</string>
+    <string name = "knvo">КНВО (Казенное научно-производственное объединение)</string>
+    <string name = "komp">КОМП (Коммунальное предприятие)</string>
+    <string name = "concern">КОНЦЕРН (Концерн)</string>
+    <string name = "koop">КООП (Кооператив)</string>
+    <string name = "koopp">КООПП (Кооперативное предприятие)</string>
+    <string name = "corp">КОРПОРАЦИЯ (Корпорация)</string>
+    <string name = "kp">КП (Коллективное предприятие)</string>
+    <string name = "kt">КТ (Коммандитное общество)</string>
+    <string name = "kfg">КФХ (Коллективное фермерское хозяйство)</string>
+    <string name = "mbf">МБФ (Международный благотворительный фонд)</string>
+    <string name = "mbkp">МВ-КП (Малое производственно-коммерческое предприятие)</string>
+    <string name = "mp">МП (Малое Предприятие)</string>
+    <string name = "mpzov">МП с ОВ (Малое Предприятие с ограниченной ответственностью)</string>
+    <string name = "mpvkp">МПО-КП (Малое частное производственно-коммерческое предприятие)</string>
+    <string name = "mpp">МПП (Малое частное предприятие)</string>
+    <string name = "mspp">МСПП (Малое сельскохозяйственное частное предприятие)</string>
+    <string name = "nva">НВА (Научно-производственная агрофирма)</string>
+    <string name = "nvo">НПО (Научно-производственное объединение)</string>
+    <string name = "nvp">НПП (Научно-производственное предприятие)</string>
+    <string name = "nvpp">НППП (Научно-производственное предприятие)</string>
+    <string name = "nnvpp">ННВПП (Научно-учебно-Впроваждувальне Частное предприятие)</string>
+    <string name = "ntyy">НТУУ (Национальный технический университет Украины)</string>
+    <string name = "ob">ОБ (Объединение предприятий)</string>
+    <string name = "okoop">ОКООП (Обслуживающий Кооператив)</string>
+    <string name = "ooo">ООО (Общество с ограниченной ответственностью)</string>
+    <string name = "pii">П с ИИ (Предприятие с иностранными инвестициями)</string>
+    <string name = "pop">П-ОП (Частное арендное предприятие)</string>
+    <string name = "pap">ПАП (частное агропромышленное предприятие)</string>
+    <string name = "pat">ПАО (Публичное Акционерное Общество)</string>
+    <string name = "paf">ПАФ (Частная агрофирма)</string>
+    <string name = "pbk">ПБК (Частная строительная компания)</string>
+    <string name = "pbmp">ПБМП (частное многопрофильное малое предприятие)</string>
+    <string name = "pbp">ПСП (частное многопрофильное предприятие)</string>
+    <string name = "pvkp">ПВ-КП (Частное производственно-коммерческое предприятие)</string>
+    <string name = "pvkf">ПВ-КФ (Частная Производственно-коммерческая фирма)</string>
+    <string name = "pvtp">ПВ-ТП (Частное производственно-техническое предприятие)</string>
+    <string name = "pvtf">ПВ-ТФ (Частная Производственно-торговая фирма)</string>
+    <string name = "pvgp">ПВГП (Частное производственно-хозяйственное предприятие)</string>
+    <string name = "pvp">ПВП (Частное производственное предприятие)</string>
+    <string name = "pvf">ППФ (Частная производственная фирма)</string>
+    <string name = "pgo">ПГО (Предприятие общественной организации)</string>
+    <string name = "pz">ПО ПАО (Северо-Западное Публичное Акционерное Общество)</string>
+    <string name = "pzvkp">УЗО-КП (Частное заготовительное производственно-коммерческое предприятие)</string>
+    <string name = "pzii">ПИИ (Предприятие с иностранными инвестициями)</string>
+    <string name = "prid">ПРЕДПРИЯТИЕ (Предприятие)</string>
+    <string name = "pkvp">ПК-ВП (частное коммерческо-производственное предприятие)</string>
+    <string name = "pmp">ПМП (Частное малое предприятие)</string>
+    <string name = "pnvp">ПН-ВП (Частное Научно-Производственное Предприятие)</string>
+    <string name = "pnvf">ПН-ПФ (Частная Научно-Производственная Фирма)</string>
+    <string name = "po">ПО (Предприятие Облпотребсоюза)</string>
+    <string name = "pog">ПОГ (Предприятие объединения граждан)</string>
+    <string name = "posp">ПОСП (Частное арендное сельскохозяйственное предприятие)</string>
+    <string name = "ppbf">ППБФ (ЧАСТНОЕ ПРЕДПРИЯТИЕ МНОГОПРОФИЛЬНАЯ ФИРМА)</string>
+    <string name = "ppf">ППФ (Частное предприятие фирма)</string>
+    <string name = "prat">ЧАО (частное акционерное общество)</string>
+    <string name = "prbp">ПРБП (Частное ремонтно-строительное предприятие)</string>
+    <string name = "predst">предста (Представительство)</string>
+    <string name = "prsp">прсп (Частное сельскохозяйственное предприятие)</string>
+    <string name = "psp">ПСП (Частное сервисное предприятие)</string>
+    <string name = "ptep">ПО-ЕП (Частное транспортно-экспедиционное предприятие)</string>
+    <string name = "ptvp">ПТВП (Частное Торгово-Производственное Предприятие)</string>
+    <string name = "ptmp">ПТМП (Частное Транспортное Малое Предприятие)</string>
+    <string name = "ptp">ПТП (частное транспортное предприятие)</string>
+    <string name = "pyfsi">ПУФСИ С УОРА (ПУФСИ С УОРА)</string>
+    <string name = "pf">ПФ (Частная фирма)</string>
+    <string name = "pbkoop">Р-БКООП (Ремонтно-Строительный Кооператив)</string>
+    <string name = "svkoop">СВКООП (Сельскохозяйственный Производственный Кооператив)</string>
+    <string name = "svf">СПФ (Сельскохозяйственная производственная фирма)</string>
+    <string name = "sg">СГ (Крестьянское хозяйство)</string>
+    <string name = "sgpp">СГПП (Сельскохозяйственное частное предприятие)</string>
+    <string name = "smpp">СМПП (Сельскохозяйственное малое частное предприятие)</string>
+    <string name = "sokoop">СОКООП (Сельскохозяйственный обслуживающий кооператив)</string>
+    <string name = "sp">СП (совместное предприятие)</string>
+    <string name = "spzii">СПзИИ (СОВМЕСТНОЕ ПРЕДПРИЯТИЕ С ИНОСТРАННЫМИ ИНВЕСТИЦИЯМИ)</string>
+    <string name = "sskoop">ССКООП (Сельский потребительский кооператив)</string>
+    <string name = "st">СТ (Потребительское общество)</string>
+    <string name = "stov">СООО (Сельскохозяйственное Общество с Ограниченной Ответственностью)</string>
+    <string name = "sfg">КФХ (Крестьянское фермерское хозяйство)</string>
+    <string name = "tepp">Т-ЭПП (Транспортно-экспедиционное частное предприятие)</string>
+    <string name = "tvkp">ТВ-КП (Транспортное производственно коммерческое предприятие)</string>
+    <string name = "tvo">ТПО (ТОРГОВО-ПРОИЗВОДСТВЕННОЕ ОБЪЕДИНЕНИЕ)</string>
+    <string name = "tdv">ОДО (Общество с дополнительной ответственностью)</string>
+    <string name = "tovzii">ООО с ИИ (Общество с ограниченной ответственностью с иностранными инвестициями)</string>
+    <string name = "tpp">ТПП (Торгово-промышленное предприятие)</string>
+    <string name = "ttpp">ТТПП (Торгово-транспортное частное предприятие)</string>
+    <string name = "ttpf">ТТПФ (Торгово-транспортная частная фирма)</string>
+    <string name = "yvp">УПП (учебно-производственное предприятие)</string>
+    <string name = "ydppz">УГППС (Украинское государственное предприятие почтовой связи)</string>
+    <string name = "fg">ФГ (Фермерское хозяйство)</string>
+    <string name = "fgvs">ФГВС (Фермерское хозяйство с отделенной усадьбой)</string>
+    <string name = "fili">Филиал (Филиал)</string>
+    <string name = "firm">Фирма (Фирма)</string>
+    <string name = "fo">ФО (Фермерское Объединение)</string>
+    <string name = "hk">ХК (холдинговая компания)</string>
+
+    <string name="carrier">Перевозчик</string>
+    <string name="customer">Заказчик</string>
+    <string name="manager">Экспедитор</string>
+
+    <string name="production">Производство</string>
+    <string name="trade">Торговля</string>
+    <string name="services">Услуги</string>
+
+    <string name="back_pressed">Для выхода нажмите есчё раз!</string>
+    <string name="refresh">Обновить</string>
+</resources>

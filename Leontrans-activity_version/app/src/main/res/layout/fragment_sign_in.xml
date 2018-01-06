@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leontrans.leontranstm.launching.SignInFragment"
+    android:background="#556B2F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="#000000">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:textSize="26sp"
+            android:textColor="#EEE8AA"
+            android:gravity="center"
+            android:text="LEONTRANS" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#FFFF00"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="26sp"
+            android:textColor="#EEE8AA"
+            android:gravity="center"
+            android:text="@string/login_hello_TV" />
+
+        <EditText
+            android:id="@+id/login_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="#800000"
+            android:textColor="#800000"
+            android:gravity="center"
+            android:hint="@string/login_input_field_hint" />
+
+        <EditText
+            android:id="@+id/password_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:hint="@string/password_input_field_hint"
+            android:textColorHint="#800000"
+            android:textColor="#800000"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/signIn_btn" />
+
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/loading_spinner"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+
+</FrameLayout>
